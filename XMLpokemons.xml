@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!--<!DOCTYPE pokemons SYSTEM "pokemon.dtd">-->
+<pokemons xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="pokemons.xsd">
+        
+        <pokemon>
+           <codigo>PK-0001</codigo>
+           <nombre>Bulbasur</nombre>
+           <color>Azul</color>
+           <tipo>Agua</tipo>
+           <fuerza>15</fuerza>
+           <comentario>Pokemon de agua, su nombre no se le conoce</comentario>
+           <foto><a href="https://encrypted-tbn0.gstatic.com/images">fotodepikachu </a></foto>
+        </pokemon>
+
+        <pokemon>
+           <codigo>PK-0002</codigo>
+           <nombre>Pikachu</nombre>
+           <color>Amarillo</color>
+           <tipo>Fuego</tipo>
+           <fuerza>15</fuerza>
+           <comentario>Pikachu es el alma de la fiesta</comentario>
+           <foto><a href="https://encrypted-tbn0.gstatic.com/images">fotodepikachu </a></foto>
+        </pokemon>
+       
+        <pokemon>
+           <codigo>PK-0003</codigo>
+           <nombre>Llamitas</nombre>
+           <color>rojo</color>
+           <tipo>Fuego</tipo>
+           <fuerza>15</fuerza>
+           <comentario> Este tipo de fuego es realmente poderoso</comentario>
+           <foto><a href="https://i.pinimg.com/474x/7a/f6/0b/7af60b2b6fa202db54f0aa275fee6e17--pokemon-charmander-pokemon-pokedex.jpg">fotodepikachu </a></foto>
+        </pokemon>
+</pokemons>

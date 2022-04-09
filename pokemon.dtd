@@ -1,0 +1,18 @@
+
+<!ELEMENT pokemons (pokemon+)>
+
+    <!ELEMENT pokemon (codigo,nombre,color,tipo,fuerza,comentario,foto)>
+    
+
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT fuerza (#PCDATA)>
+    <!ELEMENT comentario (#PCDATA)>
+
+    <!ELEMENT foto (a)>
+    <!ELEMENT a (#PCDATA)>
+    <!ATTLIST a href CDATA #REQUIRED>
+
+   
